@@ -21,18 +21,18 @@
                 class="customCellImageBackground">
                 <VBox>
                     <Text text="1.0.0" />
-                    <Link class="titleLink" text="View Log" target="_blank" href="https://logs.cf.jp10.hana.ondemand.com/app/dashboards#/view/Overview?_g=(filters:!((query:(match_phrase:(component_name:BenefitsApplication-srv)))))" visible="true" />
+                    <Link class="titleLink" text="View Log" target="_blank" href="" visible="true" />
                 </VBox>
             </l:BlockLayoutCell>
         </l:BlockLayoutRow>
         <l:BlockLayoutRow class="blockLayoutContentRow">
             <l:BlockLayoutCell id="webApplications" width='2'>
-                <Title titleStyle="H3" text="Web Applications (1)"/>
+                <Title titleStyle="H3" text="Web Applications (0)"/>
                 <core:HTML 
                     content='&lt;hr class=&quot;webAppSeparator&quot;&gt;'>
                 </core:HTML>
                 <core:HTML
-                    content='&lt;p&gt;The user will have the following applications. Click to explore them live.&lt;/p&gt;'>
+                    content='&lt;p&gt;No web applications are included.&lt;/p&gt;'>
                 </core:HTML>
                 <core:HTML
                     content='&lt;iframe class=&quot;launchpad sectionContentMargin&quot; src=&quot;./launchpadPage.html&quot; frameBorder=0 &gt;&lt;/iframe&gt;'>

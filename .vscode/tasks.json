@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "tasks": [
-        {
+    {
       "label": "npm-install",
       "type": "process",
       "command": "npm",
@@ -46,6 +46,26 @@
       "options": {
         "cwd": "${workspaceFolder}"
       }
+    },
+    {
+      "type": "build",
+      "label": "Build MTA: BenefitsApplication - PT",
+      "taskType": "Build",
+      "extensions": []
+    },
+    {
+      "type": "deploy",
+      "label": "Deploy MTA: BenefitsApplication - PT",
+      "taskType": "Deploy",
+      "mtarPath": "mta_archives/*.mtar",
+      "cfTarget": "lcap_jp_dev",
+      "cfEndpoint": "https://api.cf.jp10.hana.ondemand.com",
+      "cfOrg": "lcap_jp",
+      "cfSpace": "dev",
+      "extensions": [],
+      "dependsOn": [
+        "Build MTA: BenefitsApplication - PT"
+      ]
     }
   ]
 }
