@@ -1,5 +1,5 @@
 {
   "ProjectOverviewURL": "https://lcap-jp.launchpad.cfapps.jp10.hana.ondemand.com/lcapBenefitsApplication.BenefitsApplicationLaunchpad-1.0.0",
-  "DeployedUTCTime": "2023-02-07T14:35:21.726Z",
+  "DeployedUTCTime": "2023-02-13T09:45:23.241Z",
   "ApplicationLogURL": "https://logs.cf.jp10.hana.ondemand.com/app/dashboards#/view/Overview?_g=(filters:!((query:(match_phrase:(component_name:BenefitsApplication-srv)))))"
 }
